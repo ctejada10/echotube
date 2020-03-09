@@ -1,0 +1,9 @@
+C:\Users\Sebastian\Dropbox\Work\Research\Touch Interaction\EchoTube\Code\C#\EchoTube\Build\Debug\EncodingTest.exe.config
+C:\Users\Sebastian\Dropbox\Work\Research\Touch Interaction\EchoTube\Code\C#\EchoTube\Build\Debug\EncodingTest.exe
+C:\Users\Sebastian\Dropbox\Work\Research\Touch Interaction\EchoTube\Code\C#\EchoTube\Build\Debug\EncodingTest.pdb
+C:\Users\Sebastian\Dropbox\Work\Research\Touch Interaction\EchoTube\Code\C#\EchoTube\EncodingTest\obj\Debug\EncodingTest.csprojAssemblyReference.cache
+C:\Users\Sebastian\Dropbox\Work\Research\Touch Interaction\EchoTube\Code\C#\EchoTube\EncodingTest\obj\Debug\EncodingTest.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\Dropbox\Work\Research\Touch Interaction\EchoTube\Code\C#\EchoTube\EncodingTest\obj\Debug\EncodingTest.csproj.CopyComplete
+C:\Users\Sebastian\Dropbox\Work\Research\Touch Interaction\EchoTube\Code\C#\EchoTube\EncodingTest\obj\Debug\EncodingTest.exe
+C:\Users\Sebastian\Dropbox\Work\Research\Touch Interaction\EchoTube\Code\C#\EchoTube\EncodingTest\obj\Debug\EncodingTest.pdb
+C:\Users\Sebastian\Dropbox\Work\Research\Touch Interaction\EchoTube\Code\C#\EchoTube\Build\Debug\Accord.dll.config

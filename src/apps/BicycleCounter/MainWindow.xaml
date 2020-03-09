@@ -1,0 +1,70 @@
+﻿<Window x:Class="BicycleCounter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BicycleCounter"
+        mc:Ignorable="d"
+        Title="Bicycle Counter" Height="600" Width="800" Closing="WindowClosing" KeyUp="WindowKeyUp"
+        WindowStyle="None" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowState="Maximized">
+    <Border Background="#222222">
+        <Viewbox>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" MinWidth="500" />
+                    <ColumnDefinition Width="200" />
+                    <ColumnDefinition Width="*" MinWidth="500" />
+                </Grid.ColumnDefinitions>
+
+                <Grid Grid.Row="0" Grid.Column="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="100" />
+                        <RowDefinition Height="400" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+
+                    <Label Content="BIKES TODAY" Foreground="White" FontFamily="Segoe UI" FontSize="48" FontWeight="UltraLight" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Grid.Column="0" />
+                    <Label x:Name="CounterLabel" Content="0" Foreground="White" FontFamily="Segoe UI" FontSize="256" FontWeight="Regular" Margin="0,0,0,50" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Grid.Column="0" />
+                </Grid>
+
+                <Canvas Width="1" Margin="0,12,0,12" Background="White" Grid.Row="0" Grid.Column="1" />
+
+                <Grid Grid.Row="0" Grid.Column="2">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="100" />
+                        <RowDefinition Height="220" />
+                        <RowDefinition Height="180" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+
+                    <Label Content="LAST BIKE" Foreground="White" FontFamily="Segoe UI" FontSize="48" FontWeight="UltraLight" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Grid.Column="0" />
+
+                    <Polygon x:Name="RightArrow" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,80,0,0" Points="0.5,0 1,1 0,1" Fill="White" Visibility="Visible">
+                        <Polygon.RenderTransform>
+                            <TransformGroup>
+                                <RotateTransform Angle="90.0" CenterX="0.5" CenterY="0.5" />
+                                <ScaleTransform ScaleX="100" ScaleY="100" CenterX="0.5" CenterY="0.5" />
+                            </TransformGroup>
+                        </Polygon.RenderTransform>
+                    </Polygon>
+
+                    <Polygon x:Name="LeftArrow" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,80,0,0" Points="0.5,0 1,1 0,1" Fill="White" Visibility="Hidden">
+                        <Polygon.RenderTransform>
+                            <TransformGroup>
+                                <RotateTransform Angle="-90.0" CenterX="0.5" CenterY="0.5" />
+                                <ScaleTransform ScaleX="100" ScaleY="100" CenterX="0.5" CenterY="0.5" />
+                            </TransformGroup>
+                        </Polygon.RenderTransform>
+                    </Polygon>
+
+                    <Label x:Name="SpeedLabel" Content="22 KM/H" Foreground="White" FontFamily="Segoe UI" FontSize="48" FontWeight="Regular" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,6,0,0" Grid.Row="3" Grid.Column="0" />
+                </Grid>
+            </Grid>
+        </Viewbox>
+    </Border>
+</Window>

@@ -1,0 +1,8 @@
+C:\Users\Sebastian\Dropbox\Work\Research\Touch Interaction\EchoTube\Code\C#\EchoTube\Build\Debug\EchoTube.Core.dll
+C:\Users\Sebastian\Dropbox\Work\Research\Touch Interaction\EchoTube\Code\C#\EchoTube\Build\Debug\EchoTube.Core.pdb
+C:\Users\Sebastian\Dropbox\Work\Research\Touch Interaction\EchoTube\Code\C#\EchoTube\EchoTube.Core\obj\Debug\EchoTube.Core.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\Dropbox\Work\Research\Touch Interaction\EchoTube\Code\C#\EchoTube\EchoTube.Core\obj\Debug\EchoTube.Core.dll
+C:\Users\Sebastian\Dropbox\Work\Research\Touch Interaction\EchoTube\Code\C#\EchoTube\EchoTube.Core\obj\Debug\EchoTube.Core.pdb
+C:\Users\Sebastian\Dropbox\Work\Research\Touch Interaction\EchoTube\Code\C#\EchoTube\EchoTube.Core\obj\Debug\EchoTube.Core.csproj.CopyComplete
+C:\Users\Sebastian\Dropbox\Work\Research\Touch Interaction\EchoTube\Code\C#\EchoTube\Build\Debug\Accord.dll.config
+C:\Users\Sebastian\Dropbox\Work\Research\Touch Interaction\EchoTube\Code\C#\EchoTube\EchoTube.Core\obj\Debug\EchoTube.Core.csprojAssemblyReference.cache
